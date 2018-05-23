@@ -1,0 +1,19 @@
+PODS:
+  - CTMediator (16)
+  - MMAssetsKit_Category (1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - MMAssetsKit_Category (from `../`)
+
+EXTERNAL SOURCES:
+  MMAssetsKit_Category:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CTMediator: cf621c17f331aef82a804a404de4fe14d01863ee
+  MMAssetsKit_Category: 2f0ff8b994c345ed8152c6546e3373c19ad0be6c
+
+PODFILE CHECKSUM: 5551bdc0f716dc307515acba0499192db766fcb1
+
+COCOAPODS: 1.4.0

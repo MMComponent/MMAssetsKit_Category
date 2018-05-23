@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AAE799F02C04617401B631C /* MMAssetsKit_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMAssetsKit_Category.podspec; path = ../MMAssetsKit_Category.podspec; sourceTree = "<group>"; };
+		1AAE799F02C04617401B631C /* MMAssetsKit_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMAssetsKit_Category.podspec; path = ../MMAssetsKit_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		24DDDE506DCD9B9426B2E5A1 /* Pods_MMAssetsKit_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMAssetsKit_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3324E37E84C3D04C3A5F1AEF /* Pods-MMAssetsKit_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAssetsKit_Category_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMAssetsKit_Category_Example/Pods-MMAssetsKit_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MMAssetsKit_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMAssetsKit_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		6A4D510700B8D81DAF1521C3 /* Pods_MMAssetsKit_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMAssetsKit_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A282F2E09A77450EBC8C70BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A282F2E09A77450EBC8C70BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CCF57B446E5A0EE291AC3D9C /* Pods-MMAssetsKit_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAssetsKit_Category_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMAssetsKit_Category_Tests/Pods-MMAssetsKit_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6D08597F6AAF9EEF7031414 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D6D08597F6AAF9EEF7031414 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5D2A4E39A5941DAEE175AE4 /* Pods-MMAssetsKit_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAssetsKit_Category_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMAssetsKit_Category_Tests/Pods-MMAssetsKit_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -334,10 +334,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MMAssetsKit_Category_Example/Pods-MMAssetsKit_Category_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/MMAssetsKit_Category/MMAssetsKit_Category.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMAssetsKit_Category.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

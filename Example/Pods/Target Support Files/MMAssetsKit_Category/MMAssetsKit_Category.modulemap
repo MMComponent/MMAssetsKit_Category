@@ -1,0 +1,6 @@
+framework module MMAssetsKit_Category {
+  umbrella header "MMAssetsKit_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}
