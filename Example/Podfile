@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMAssetsKit_Category_Example' do
+  pod 'MMAssetsKit_Category', :path => '../'
+
+  target 'MMAssetsKit_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
